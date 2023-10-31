@@ -4,11 +4,11 @@ services:
     build: .
     image: front-end
     networks:
-      - my-networks
+      - my-network
     ports:
       - 80:80
   
 networks:
-  my-networks:
-    name: my-networks
+  my-network:
+    name: my-network
     external: true
