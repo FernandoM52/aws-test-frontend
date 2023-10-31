@@ -4,11 +4,11 @@ services:
     build: .
     image: front-end
     networks:
-      - my-network
+      - betting-house-network
     ports:
       - 80:80
   
 networks:
   my-network:
-    name: my-network
+    name: betting-house-network
     external: true
