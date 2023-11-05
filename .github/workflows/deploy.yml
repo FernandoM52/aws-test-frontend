@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-name: Build and Deploy Back-end on AWS
+name: Build and Deploy Front-end on AWS
 jobs:
   build:
     runs-on: self-hosted
